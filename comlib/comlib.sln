@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "comlib", "comlib\comlib.vcxproj", "{A179B8B6-55FE-4916-8C1A-4D234862B61D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "echoserver", "echoserver\echoserver.vcxproj", "{B2F54952-FD30-4E22-B611-0038A8DA502C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "echoclient", "echoclient\echoclient.vcxproj", "{11635584-DC40-4445-9775-A52F2C9A4FBA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stresstest", "stresstest\stresstest.vcxproj", "{94278F75-C76A-44E9-9E1E-B819C625D594}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A179B8B6-55FE-4916-8C1A-4D234862B61D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A179B8B6-55FE-4916-8C1A-4D234862B61D}.Debug|Win32.Build.0 = Debug|Win32
+		{A179B8B6-55FE-4916-8C1A-4D234862B61D}.Release|Win32.ActiveCfg = Release|Win32
+		{A179B8B6-55FE-4916-8C1A-4D234862B61D}.Release|Win32.Build.0 = Release|Win32
+		{B2F54952-FD30-4E22-B611-0038A8DA502C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B2F54952-FD30-4E22-B611-0038A8DA502C}.Debug|Win32.Build.0 = Debug|Win32
+		{B2F54952-FD30-4E22-B611-0038A8DA502C}.Release|Win32.ActiveCfg = Release|Win32
+		{B2F54952-FD30-4E22-B611-0038A8DA502C}.Release|Win32.Build.0 = Release|Win32
+		{11635584-DC40-4445-9775-A52F2C9A4FBA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11635584-DC40-4445-9775-A52F2C9A4FBA}.Debug|Win32.Build.0 = Debug|Win32
+		{11635584-DC40-4445-9775-A52F2C9A4FBA}.Release|Win32.ActiveCfg = Release|Win32
+		{11635584-DC40-4445-9775-A52F2C9A4FBA}.Release|Win32.Build.0 = Release|Win32
+		{94278F75-C76A-44E9-9E1E-B819C625D594}.Debug|Win32.ActiveCfg = Debug|Win32
+		{94278F75-C76A-44E9-9E1E-B819C625D594}.Debug|Win32.Build.0 = Debug|Win32
+		{94278F75-C76A-44E9-9E1E-B819C625D594}.Release|Win32.ActiveCfg = Release|Win32
+		{94278F75-C76A-44E9-9E1E-B819C625D594}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

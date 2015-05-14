@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="staggered" renderorder="right-down" width="13" height="29" tilewidth="64" tileheight="32" staggeraxis="y" staggerindex="odd" backgroundcolor="#808080" nextobjectid="82">
+ <tileset firstgid="1" name="ground" tilewidth="64" tileheight="32">
+  <image source="ground.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="9" name="cubes" tilewidth="64" tileheight="32">
+  <image source="cubes.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="tree" tilewidth="64" tileheight="32">
+  <image source="tree.png" width="192" height="352"/>
+ </tileset>
+ <layer name="groundLayer" width="13" height="29">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+JRPCwxAF90AXo=
+  </data>
+ </layer>
+ <layer name="objectLayer" width="13" height="29">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwWo4GDjAmpArIGFTQho4WDjAjpArIeFTQgY4GAPFsBJph5S9HEykK6HC0kPD5F6uKHquUmwB6aPHD2jYPAAAAE2Aus=
+  </data>
+ </layer>
+ <objectgroup name="objectCollisionAreas">
+  <object id="62" name="treeUL" x="160" y="208">
+   <polygon points="45,-3 45,5 56,12 73,12 86,4 86,-4 75,-9 58,-9"/>
+  </object>
+  <object id="63" name="treeUR" x="352" y="208">
+   <polygon points="45,-3 45,5 56,12 73,12 86,4 86,-4 75,-9 58,-9"/>
+  </object>
+  <object id="80" name="fixedCube" x="224" y="320">
+   <polygon points="0,0 96,48 192,0 96,-48"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="objectBoundingAreas">
+  <object id="68" name="treeUL" x="224" y="112">
+   <polygon points="0,0 64,32 64,96 0,128 -64,96 -64,32"/>
+  </object>
+  <object id="70" name="treeUR" x="416" y="112">
+   <polygon points="0,0 64,32 64,96 0,128 -64,96 -64,32"/>
+  </object>
+  <object id="81" name="fixedCube" x="160" y="304">
+   <polygon points="0,0 160,80 320,0 160,-80"/>
+  </object>
+ </objectgroup>
+ <layer name="Top" width="13" height="29">
+  <data encoding="base64" compression="zlib">
+   eJztxjkKACAMBdGcQcQNN7z/If11SFKJVR4MDNF/QXlNREl4S0YFVfaWhrrwloEmWuwtGx3hnXPutQvacAKt
+  </data>
+ </layer>
+</map>

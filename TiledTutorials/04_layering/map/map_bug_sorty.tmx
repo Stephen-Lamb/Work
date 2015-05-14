@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="staggered" renderorder="right-down" width="13" height="29" tilewidth="64" tileheight="32" staggeraxis="y" staggerindex="odd" backgroundcolor="#808080" nextobjectid="80">
+ <tileset firstgid="1" name="ground" tilewidth="64" tileheight="32">
+  <image source="ground.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="9" name="cubes" tilewidth="64" tileheight="32">
+  <image source="cubes.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="tree" tilewidth="64" tileheight="32">
+  <image source="tree.png" width="192" height="352"/>
+ </tileset>
+ <layer name="groundLayer" width="13" height="29">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+JRPCwxAF90AXo=
+  </data>
+ </layer>
+ <layer name="objectLayer" width="13" height="29">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh5gJNE9Vxk6AEBbjL0kaOHErt4yLRrFAxeQGo6AKknlA5UsOjBlw7UgFiDBPUwoEWiHh0g1oOyuYi0AwQMkNjDPT0DAESwAhs=
+  </data>
+ </layer>
+ <objectgroup name="objectCollisionAreas">
+  <object id="64" name="treeLR" x="352" y="400">
+   <polygon points="45,-3 45,5 56,12 73,12 86,4 86,-4 75,-9 58,-9"/>
+  </object>
+  <object id="73" name="fixedBoxU" x="576" y="112">
+   <polygon points="0,0 160,80 192,64 32,-16"/>
+  </object>
+  <object id="75" name="fixedBoxL" x="576" y="400">
+   <polygon points="0,0 32,16 192,-64 160,-80"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="objectBoundingAreas">
+  <object id="71" name="treeLR" x="416" y="304">
+   <polygon points="0,0 64,32 64,96 0,128 -64,96 -64,32"/>
+  </object>
+  <object id="76" name="fixedBoxU" x="512" y="96">
+   <polygon points="0,0 224,112 320,64 96,-48"/>
+  </object>
+  <object id="78" name="fixedBoxL" x="512" y="384">
+   <polygon points="0,0 96,48 320,-64 224,-112"/>
+  </object>
+ </objectgroup>
+ <layer name="Top" width="13" height="29">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DkACES1YsAsRiJesSBWAKIJUnQIwXEMiTaIwvEckAsT4IeBSBWItGeUTC0AQAmWQFX
+  </data>
+ </layer>
+</map>

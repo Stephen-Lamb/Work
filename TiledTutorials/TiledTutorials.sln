@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_tiled_intro", "TiledIntro\TiledIntro.vcxproj", "{D0107A8A-42F7-4482-BDC8-249045A9E426}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_dimetric_1", "dimetric1\dimetric1.vcxproj", "{EA518639-0AB2-4E59-B050-16828BFE94D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_dimetric_2", "dimetric2\dimetric2.vcxproj", "{AA7C7CB4-F930-455F-8841-5DC5D568FB89}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_layering", "04_layering\04_layering.vcxproj", "{8FA35ECD-62CA-4A0C-A97A-941F27572E3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0107A8A-42F7-4482-BDC8-249045A9E426}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0107A8A-42F7-4482-BDC8-249045A9E426}.Debug|Win32.Build.0 = Debug|Win32
+		{D0107A8A-42F7-4482-BDC8-249045A9E426}.Release|Win32.ActiveCfg = Release|Win32
+		{D0107A8A-42F7-4482-BDC8-249045A9E426}.Release|Win32.Build.0 = Release|Win32
+		{EA518639-0AB2-4E59-B050-16828BFE94D0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EA518639-0AB2-4E59-B050-16828BFE94D0}.Debug|Win32.Build.0 = Debug|Win32
+		{EA518639-0AB2-4E59-B050-16828BFE94D0}.Release|Win32.ActiveCfg = Release|Win32
+		{EA518639-0AB2-4E59-B050-16828BFE94D0}.Release|Win32.Build.0 = Release|Win32
+		{AA7C7CB4-F930-455F-8841-5DC5D568FB89}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AA7C7CB4-F930-455F-8841-5DC5D568FB89}.Debug|Win32.Build.0 = Debug|Win32
+		{AA7C7CB4-F930-455F-8841-5DC5D568FB89}.Release|Win32.ActiveCfg = Release|Win32
+		{AA7C7CB4-F930-455F-8841-5DC5D568FB89}.Release|Win32.Build.0 = Release|Win32
+		{8FA35ECD-62CA-4A0C-A97A-941F27572E3D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8FA35ECD-62CA-4A0C-A97A-941F27572E3D}.Debug|Win32.Build.0 = Debug|Win32
+		{8FA35ECD-62CA-4A0C-A97A-941F27572E3D}.Release|Win32.ActiveCfg = Release|Win32
+		{8FA35ECD-62CA-4A0C-A97A-941F27572E3D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
